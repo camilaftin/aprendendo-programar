@@ -5,14 +5,21 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite seu nome: ");
+        System.out.print("Digite seu nome: ");
         String nome = sc.nextLine();
 
-        System.out.println("Digite sua idade: ");
+        System.out.print("Digite sua idade: ");
         int idade = sc.nextInt();
+
+        System.out.print("Digite 1 numero: ");
+        int numero1 = sc.nextInt();
+
+        System.out.print("Digite outro numero: ");
+        int numero2 = sc.nextInt();
 
         sc.close();
 
         System.out.println("Meu nome é " + nome + " e minha idade é " + idade);
+        System.out.println("A soma dos numeros digitados sao: " + (numero1 + numero2));
     }
 }
